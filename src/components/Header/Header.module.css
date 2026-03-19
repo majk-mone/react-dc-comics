@@ -1,0 +1,43 @@
+ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    margin: 30px;
+}
+
+ul li {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+ul li a {
+    padding: 10px;
+
+}
+
+ul li a.active,
+ul li a:hover {
+    background-color: transparent;
+    border-bottom: 2px solid lightblue;
+}
+
+
+figure {
+    text-align: center;
+}
+
+nav {
+    font: sans-serif;
+}
+
+a {
+    color: dimgray;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 10px;
+}
