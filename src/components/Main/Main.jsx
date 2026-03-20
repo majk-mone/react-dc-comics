@@ -1,19 +1,7 @@
 import styles from './Main.module.css'
-import digital from '../../assets/img/buy-comics-digital-comics.png'
-import merchandise from '../../assets/img/buy-comics-merchandise.png'
-import subscription from '../../assets/img/buy-comics-subscriptions.png'
-import shop from '../../assets/img/buy-comics-shop-locator.png'
-import power from '../../assets/img/buy-dc-power-visa.png'
+import ServicesBar from '../ServicesBar/ServicesBar'
 
 export default function Main() {
-	const items = [
-		{ img: digital, text: 'DIGITAL COMICS' },
-		{ img: merchandise, text: 'DC MERCHANDISE' },
-		{ img: subscription, text: 'SUBSCRIPTION' },
-		{ img: shop, text: 'COMIC SHOP LOCATOR' },
-		{ img: power, text: 'DC POWER VISA' },
-	]
-
 	return (
 		<main className={styles.Main}>
 			<section className={styles.section1}>
@@ -22,18 +10,7 @@ export default function Main() {
 				</div>
 			</section>
 
-			<section className={styles.products}>
-				<div className={styles.container}>
-					<div className={styles.items}>
-						{items.map((item, index) => (
-							<div key={index} className={styles.item}>
-								<img src={item.img} alt={item.text} />
-								<span>{item.text}</span>
-							</div>
-						))}
-					</div>
-				</div>
-			</section>
+			<ServicesBar />
 		</main>
 	)
 }

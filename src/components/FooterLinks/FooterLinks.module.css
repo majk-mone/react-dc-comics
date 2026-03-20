@@ -1,0 +1,51 @@
+.footer {
+    background-image: url('../../assets/img/footer-bg.jpg');
+    color: #959595;
+    padding: 40px 0;
+}
+
+/* container principale */
+.nav {
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    margin-left: 10%;
+    justify-content: flex-start;
+}
+
+.column {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+/* titoli */
+.title {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+/* lista */
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}
+
+/* link */
+.link {
+    text-decoration: none;
+    color: #959595;
+    font-size: 16px;
+}
+
+.link:hover {
+    color: #0282f9;
+}

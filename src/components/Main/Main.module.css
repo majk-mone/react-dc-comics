@@ -9,31 +9,7 @@
 }
 
 
-.products {
-    background-color: #0282f9;
-    color: white;
-    padding: 40px 0;
-}
 
-
-.items {
-    display: flex;
-    margin-left: 8%;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
-.item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-
-.item img {
-    width: 40px;
-}
 
 .section3{
      background-image: url("./assets/img/");

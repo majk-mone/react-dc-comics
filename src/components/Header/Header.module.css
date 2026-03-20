@@ -1,36 +1,36 @@
-ul {
+.header ul {
     display: flex;
     padding: 0;
     justify-content: center;
     margin: 30px;
 }
 
-ul li {
+.header ul li {
     list-style-type: none;
     font-weight: bold;
 }
 
-ul li a {
+.header ul li a {
     padding: 10px;
 
 }
 
-ul li a.active,
-ul li a:hover {
+.header ul li a.active,
+.header ul li a:hover {
     background-color: transparent;
     border-bottom: 2px solid lightblue;
 }
 
 
-figure {
+.header figure {
     text-align: center;
 }
 
-nav {
+.header nav {
     font: sans-serif;
 }
 
-a {
+.header a {
     color: dimgray;
     text-decoration: none;
 }
