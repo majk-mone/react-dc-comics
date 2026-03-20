@@ -1,4 +1,5 @@
 import styles from './FooterLinks.module.css'
+import logo from '../../assets/img/dc-logo.png'
 
 export default function FooterLinks() {
 	const footerLinksData = [
@@ -55,6 +56,7 @@ export default function FooterLinks() {
 
 	return (
 		<footer className={styles.footer}>
+			<img src={logo} className={styles.logoOverlay} alt="logo" />
 			<nav className={styles.nav}>
 				{/* Colonna 1: DC COMICS + SHOP */}
 				<div className={styles.column}>

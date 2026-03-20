@@ -1,13 +1,28 @@
 .footer {
+    position: relative;
     background-image: url('../../assets/img/footer-bg.jpg');
     color: #959595;
     padding: 40px 0;
+    position: relative;
+    overflow: hidden;
 }
 
-/* container principale */
+.logoOverlay {
+    position: absolute;
+    bottom: -80px;
+    left: 1000px;
+    width: 600px;
+    transform: rotate(-20deg);
+    opacity: 0.5;
+    z-index: 1;
+    pointer-events: none;
+}
+
+
 .nav {
     width: 80%;
     display: flex;
+    z-index: 2;
     gap: 10px;
     margin-left: 10%;
     justify-content: flex-start;
@@ -23,7 +38,7 @@
     margin-bottom: 20px;
 }
 
-/* titoli */
+
 .title {
     color: white;
     font-size: 14px;
@@ -31,7 +46,7 @@
     text-transform: uppercase;
 }
 
-/* lista */
+
 .list {
     list-style: none;
     padding: 0;
@@ -39,7 +54,7 @@
     flex-direction: column;
 }
 
-/* link */
+
 .link {
     text-decoration: none;
     color: #959595;
