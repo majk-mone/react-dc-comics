@@ -1,7 +1,7 @@
 .section1 {
+    position: relative;
     background-color: #1c1c1c;
     color: white;
-    padding: 40px 0;
 }
 
 .section1 h2 {
@@ -9,8 +9,6 @@
 }
 
 
-
-
-.section3{
-     background-image: url("./assets/img/");
+.section3 {
+    background-image: url("./assets/img/");
 }

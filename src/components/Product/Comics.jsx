@@ -178,8 +178,11 @@ export default function Comics() {
 		))
 	}
 	return (
-		<section id="comics">
-			<div className={styles.hero}></div>
+		<section id="comics" className={styles.comicsSection}>
+			<div className={styles.hero}>
+				<img src={heroImg} alt="hero" />
+			</div>
+
 			<div className={styles.container}>
 				<div className={styles.label}>CURRENT SERIES</div>
 
