@@ -1,5 +1,5 @@
 import styles from './FooterLinks.module.css'
-import logo from '../../assets/img/dc-logo.png'
+import logo from '../../../assets/img/dc-logo.png'
 
 export default function FooterLinks() {
 	const footerLinksData = [

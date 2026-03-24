@@ -1,6 +1,6 @@
 import ComicsCard from './ComicsCard'
 import styles from './Card.module.css'
-import heroImg from '../../assets/img/jumbotron.jpg' // esempio
+import heroImg from '../../assets/img/jumbotron.jpg'
 
 export default function Comics() {
 	const comics = [
