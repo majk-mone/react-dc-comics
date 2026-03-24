@@ -8,6 +8,7 @@
 .items {
     display: flex;
     margin-left: 8%;
+    margin-right: 8%;
     justify-content: space-around;
     align-items: center;
 }
